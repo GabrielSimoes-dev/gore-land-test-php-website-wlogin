@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(70, 67, 67); 
+    margin-bottom: 100%;
+    zoom: 1; 
+    background-image: url("Images/background.jpg");
+        
+    
+}
+
+
+
+#logo h1{
+    position:absolute;
+    top: 1%;
+    font-size: 7vw;
+    margin-left: 28%;
+    -webkit-text-stroke: 0.2vw darkslategrey;
+    text-transform:uppercase;
+    
+
+}
+
+h1::before{
+    content:attr(data-text);
+    white-space: nowrap;
+    position:absolute;
+    margin-left: 0;
+    top:0;
+    left:0;
+    width:0;
+    height: 100%;
+    color: rgb(129, 9, 9);
+    -webkit-text-stroke: 0vw red;
+    border-right: 1px solid transparent;
+    overflow:hidden;
+    animation: animate 12s linear infinite;
+    
+}
+
+@keyframes animate{
+
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+   
+    
+}
+
+#top-container{
+    border: solid black;
+    height: 20vw;
+     box-sizing: border-box;
+    background-color:black;
+    border-radius: 5px;
+   
+ }
+
+
+#search-box{
+    top: 37%;
+    left: 13%;
+    transform:translate(-50%,-50%);
+    border:2px solid rgb(14, 13, 13);
+    position:absolute;
+    background-color:rgb(70, 67, 67);   
+    
+       
+}
+
+.search-txt{
+    background-color:rgb(66, 64, 64);
+    font-size: 1.2vw;
+    position: relative;
+    padding: 0 10px;
+    
+       
+}
+
+.search-btn{
+    color:rgb(7, 7, 7);
+    position:fixed;
+    
+}
+
+.search-btn:hover{
+    color:rgb(219, 213, 213);
+    
+}
+
+.latest-updates{
+    border:3px solid black;
+    background-color: black;
+    float: right;
+    margin-top: 10%;
+    font-size: 1vw;
+    border-radius: 30px;
+}
+
+.latest-updates a :hover{
+    color:rgb(122, 197, 197);
+}
+
+.latest-updates a{
+    text-decoration:none;
+    color: white;
+
+}
+
+
+
+.latest-updates li{
+    color: rgb(214, 214, 77);
+    font-size: 1.5vw;
+    
+}
+
+#footer{
+    position:absolute;
+    margin-top: 100%;
+    padding: 3px;  
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    width: 98%;
+    text-align:center;
+    
+}
+
+.side-bar{
+    color:white;
+    font-size: 2vw;
+    zoom: 1; 
+      
+    
+}
+
+.side-bar ul{
+    position:absolute;
+    top: 20%;
+    left: 35%;
+    display:flex;
+    
+    
+}
+
+.side-bar a{
+    position:relative;
+    padding:10px;
+    text-decoration: none;
+    font-size: 1.7vw;
+    color:darkslategrey;
+}
+
+.side-bar a:hover{
+    color:rgb(129, 9, 9);;
+}
+
+#logo a{
+    color:transparent;
+}
+
+.user-logged{
+    position: absolute;
+    color: rgb(28, 49, 143);
+    font-size: 2vw;
+    padding: 7px;
+    top: 30%;
+    left: 78%;
+    text-align:right;
+    
+}
+
+.new p{
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.big-block{
+    
+    border:3px solid black;
+    background-color: black;
+    float: right;
+    margin-top: 10%;
+    font-size: 1vw;
+    
+}
+
+.nurse{
+    position: absolute;
+    color: rgb(28, 49, 143);
+    font-size: 2vw;
+    padding: 7px;
+    top: 26%;
+    left: 87%;
+    text-align:right;
+}
+

@@ -1,0 +1,49 @@
+
+
+.placeholders input{  
+    position:relative;
+    height: 1.6vw;
+    display: block;
+    left: 40%;
+    width: 20%;
+    font-size: 1vw;
+    padding: 5px;
+    border: 1px solid rgb(27, 27, 27);
+    background-color: darkslategrey;
+    
+}
+
+.text h2{
+    color: darkslategrey;
+    font-size: 2vw;
+    position:relative;
+    left: 42%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    
+    
+}
+
+.submit-btn{
+    position:relative;
+    height: 3vw;
+    top:5px;
+    display: block;
+    left: 40.4%;
+    width: 20%;
+    font-size: 1vw;
+    padding: 5px;
+    border-radius: 5%;
+    background-color: rgb(129, 9, 9);
+    
+}
+
+.error-messages{
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    color: orange;
+   
+    
+}
+
